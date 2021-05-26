@@ -60,7 +60,7 @@
                       <input
                         aria-describedby="addon-right addon-left"
                         type="text"
-                        placeholder="First Name"
+                        placeholder="Firstname"
                         class="firstname"
                       />
                       <!---->
@@ -73,7 +73,7 @@
                       <input
                         aria-describedby="addon-right addon-left"
                         type="text"
-                        placeholder="Last Name"
+                        placeholder="Lastname"
                         class="lastname"
                       />
                       <!---->
