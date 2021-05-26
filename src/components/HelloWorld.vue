@@ -176,9 +176,9 @@
               <div class="author">
                 <a href="#"
                   ><img
-                    src=""
+                    src="../assets/user.jpg"
                     alt="..."
-                    class="avatar border-gray"
+                    class="avatar"
                   />
                   <h4 class="title">
                     Mike Andrew<br />
@@ -249,6 +249,9 @@
   flex: 1 1 auto;
   padding: 1.25rem;
   height: 500px;
+}
+.author {
+  width: 300px;
 }
 .row {
   display: -ms-flexbox;
@@ -343,6 +346,12 @@ body {
 .postalcode {
   width: 236px; 
   height: 40px;
+}
+.avatar {
+  border-radius: 50%;
+  width: 110px;
+  height: 110px;
+  margin-left: 6rem;
 }
 </style>
 
