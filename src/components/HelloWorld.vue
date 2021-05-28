@@ -143,7 +143,7 @@
                         placeholder="Here can be your description"
                         class="aboutme txt" 
                         rows="2"
-                        cols="89"
+                        cols="108"
                       ></textarea>
                     </div>
                   </div>
@@ -215,7 +215,8 @@
 <style scoped>
 .container-fluid {
   background-color: rgb(245, 241, 241);
-  height: 937px;
+  min-height: 937px;
+  overflow: hidden;
 }
 .col-md-8 {
   position: relative;
@@ -223,8 +224,13 @@
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
-  width: 950px;
-  height: 500px;
+  width: 1350px;
+  min-height: 500px;
+  overflow: hidden;
+}
+.card-user {
+  min-width: 550px;
+  overflow: hidden;
 }
 .form-group {
   display: block;
@@ -256,8 +262,8 @@
   border-radius: 4px;
   border-style: solid;
   border-width: 0.25px;
-  height: 680px;
-  margin: 10rem 0rem 0rem 5rem;
+  min-height: 700px;
+  margin: 9rem 0rem 0rem 6rem;
   background-color: rgb(255, 254, 254)
 }
 .card .card-body {
@@ -266,7 +272,8 @@
 .card-body {
   flex: 1 1 auto;
   padding: 1.25rem;
-  height: 500px;
+  min-height: 500px;
+  overflow: hidden;
 }
 .author {
   width: 300px;
@@ -280,6 +287,7 @@
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
+  overflow: hidden;
 }
 .card label {
   font-size: 12px;
@@ -329,44 +337,44 @@ body {
   margin-right: 0.5rem;
 }
 .company {
-  width: 307px; 
+  width: 400px; 
   height: 40px; 
   margin-right: 0.5rem
 } 
 .username {
-  width: 188px; 
+  width: 350px; 
   height: 40px; 
   margin-right: 0.5rem
 }
 .email {
-  width: 244px; 
+  width: 385px; 
   height: 40px;
 } 
 .firstname {
-  width: 387px; 
+  width: 584px; 
   height: 40px; 
   margin-right: 0px;
 } 
 .lastname {
-  width: 387px; 
+  width: 584px; 
   height: 40px;
 }
 .address {
-  width: 810px; 
+  width: 1200px; 
   height: 40px;
 }
 .city {
-  width: 246px; 
+  width: 384px; 
   height: 40px; 
   margin-right: 0.5rem;
 }
 .country {
-  width: 257px; 
+  width: 370px; 
   height: 40px; 
   margin-right: 0.5rem;
 }
 .postalcode {
-  width: 246px; 
+  width: 384px; 
   height: 40px;
 }
 .avatar {
@@ -376,7 +384,7 @@ body {
   margin-left: 6rem;
 }
 .txt {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: normal;
 }
 </style>
